@@ -1,0 +1,17 @@
+
+[25-04-2025 19:14]
+[25-04-2025 19:21]
+Error fetching the DNS record:
+An HTTP Client raised an unhandled exception: Invalid header value b'AWS4-HMAC-SHA256 Credential=AKIAUBKFCUSRPTK6JNX4\n/20250425/us-east-1/route53/aws4_request, SignedHeaders=host;x-amz-date, Signature=0212784d18620998c257dfb58858f568f20dd68ce6c3dabd9c24cced1d524a99'
+[25-04-2025 19:30]
+Nothing to see here
+[25-04-2025 19:41]
+Nothing to see here
+[25-04-2025 19:46]
+Nothing to see here
+[25-04-2025 19:51]
+Nothing to see here
+[25-04-2025 19:56]
+Nothing to see here
+[25-04-2025 20:01]
+Nothing to see here

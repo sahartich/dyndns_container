@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: dyndns
+  name: dyndns
+spec:
+  containers:
+  - image: sahartich/dyndns:latest
+    name: dyndns
+    resources: {}
+    envFrom:
+    - secretRef:
+        name: aws-credentials
+    volumeMounts:
+    - mountPath: /app
+      name: app-volume
+  volumes:
+  - name: app-volume
+    hostPath:
+      path: /home/sahar/Documents/Docker2/Python
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
